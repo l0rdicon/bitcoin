@@ -84,7 +84,7 @@ public:
         consensus.fPoSNoRetargeting = false;
         consensus.nCoinbaseMaturity = 500;
 
-        consensus.fPowAllowMinDifficultyBlocks = false;
+        consensus.fPowAllowMinDifficultyBlocks = true; // true Makes block 10001 or all above 10001 sync
 
 
         consensus.nRuleChangeActivationThreshold = 1916; // 95% of 2016
